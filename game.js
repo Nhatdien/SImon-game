@@ -8,6 +8,7 @@ var level = 0
 function startOver(){
   level = 0
   started = false
+  gamePattern = []
 }
 $(document).keypress(function(event)
 {
