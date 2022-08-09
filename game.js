@@ -12,7 +12,7 @@ function startOver(){
 }
 $(document).keypress(function(event)
 {
-  if ((started == false && event.key == "a") || (started == false && event.key == "A")) {
+  if (!stared) {
 
     //3. The h1 title starts out saying "Press A Key to Start", when the game has started, change this to say "Level 0".
     $("#level-title").text("Level " + level);
